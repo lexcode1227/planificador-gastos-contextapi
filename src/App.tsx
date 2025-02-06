@@ -1,5 +1,4 @@
 import { useEffect } from 'react'
-import './App.css'
 import BudgetForm from './components/BudgetForm'
 import BudgetTracker from './components/BudgetTracker'
 import ExpendModal from './components/ExpendModal'
