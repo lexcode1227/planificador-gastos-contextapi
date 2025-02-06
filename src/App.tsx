@@ -5,6 +5,7 @@ import BudgetTracker from './components/BudgetTracker'
 import ExpendModal from './components/ExpendModal'
 import ExpenseList from './components/ExpenseList'
 import { useBudget } from './hooks/useBudget'
+import FilterInput from './components/FilterInput'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       </main>
       {isValidBudget() && (
         <section className='max-w-3xl mx-auto py-10'>
+          <FilterInput/>
           <ExpendModal/>
           <ExpenseList/>
         </section>
